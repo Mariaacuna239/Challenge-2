@@ -4,9 +4,11 @@
     <style>
       /* style */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: papayawhip;
   color: #333;
+  text-align: center;
+  padding: 20px;
   margin: 0;
 }
 
@@ -19,16 +21,22 @@ body {
 /* Header Styles */
 header {
   background-color: #fff;
-  padding: 20px 0;
+  padding: 50px 0;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 1;
 }
 
+.custom-image {
+        width: 300px;
+       height: 300px:
+}
+
+
 h1 {
   margin: 0;
-  font-size: 36px;
+  font-size: 25px;
 }
 
 nav ul {
@@ -45,7 +53,7 @@ nav li {
 nav a {
   color: #333;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 21px;
   transition: color 0.2s;
 }
 
@@ -60,7 +68,7 @@ main {
 
 h2 {
   margin-top: 0;
-  font-size: 36px;
+  font-size: 45px;
 }
 
 ul {
@@ -76,6 +84,39 @@ h3 {
   margin-top: 0;
   font-size: 24px;
 }
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 900px;
+  max-width: 100%
+}
+.box {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+/* navigation menu style*/
+nav {
+  overflow: hidden;
+  background-color: pink;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
 
 /* Footer Styles */
 footer {
@@ -90,12 +131,17 @@ footer p {
   font-size: 14px;
 }
 
+      h3{
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
     <header>
-      <h1>My Portfolio</h1>
-      <nav>
+      <h1>Full Stack Web Developer</h1>
+      <h2>Maria Acuna</h2> 
+      
+    <nav>
         <ul>
           <li><a href="#about-me">About Me</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -103,27 +149,31 @@ footer p {
         </ul>
       </nav>
     </header>
+
+    
+    <img src="C:\Users\Carmen\Pictures\Screenshots\custom image.jpg" alt="Avatar Picture for Portfolio" class="custom-image">
+    
     <main>
       <section id="about-me">
         <h2>About Me</h2>
-        <p>Insert your personal information here.</p>
+        <h3>I am unevirsity student aspirating to become a Full Stack Web Developer. I am a talented, hardworking individual who is always seeking to become an extraordinary professional; passionate about giving my best and my all to every challenge and achieve it succefully.</h3>
       </section>
       <section id="projects">
         <h2>Projects</h2>
         <ul>
           <li>
-            <h3>Project 1</h3>
-            <p>Insert project description and link to project here.</p>
-          </li>
-          <li>
-            <h3>Project 2</h3>
-            <p>Insert project description and link to project here.</p>
+            <h2>Project 1</h2>
+            <h3>My first project focus was to refactor an existing site to make it more accessible. Following the Scout Rule, always leaving the code a cleaner than when found.</h3>
+            <div class="box">
+              <a href="https://mariaacuna239.github.io/Acuna-Project/"> <img src="https://i.postimg.cc/GmxZ4B83/Screenshot-2023-04-27-221733.png" alt="Project"></a>
+            </div>
           </li>
         </ul>
       </section>
       <section id="contact-me">
         <h2>Contact Me</h2>
-        <p>Insert contact information and form here.</p>
+        <h3> Email: mariaacuna239@gmail.com </h3> <h3>phone number: (210) 870-7998</h3>
+        
       </section>
     </main>
     <footer>
